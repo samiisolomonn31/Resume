@@ -133,7 +133,7 @@
   .edu-minors{font-family:'Press Start 2P',monospace;font-size:.7rem;color:var(--blue);}
   .edu-years{font-family:'Press Start 2P',monospace;color:var(--wood);font-size:.6rem;}
 
-  #toast{position:fixed;top:80px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--panel);border:3px solid var(--border);box-shadow:4px 4px 0 var(--shadow);padding:.6rem 1.2rem;font-family:'Press Start 2P',monospace;font-size:.55rem;color:var(--text);z-index:9998;pointer-events:none;opacity:0;transition:opacity .3s,transform .3s;white-space:nowrap;}
+  #toast{position:fixed;top:60px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--panel);border:3px solid var(--border);box-shadow:4px 4px 0 var(--shadow);padding:.6rem 1.2rem;font-family:'Press Start 2P',monospace;font-size:.55rem;color:var(--text);z-index:9998;pointer-events:none;opacity:0;transition:opacity .3s,transform .3s;white-space:nowrap;}
   #toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
 
   .float-item{position:fixed;z-index:10;font-size:1.5rem;animation:floatUp 3s ease-out forwards;pointer-events:none;}

@@ -189,7 +189,7 @@
           </div>
           <div class="stars-row">
             <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
-            <span style="font-size:1rem;color:var(--wood);margin-left:6px;">Friendship Level MAX</span>
+            <span style="font-size:.6rem;color:var(--wood);margin-left:6px;">Friendship Level MAX</span>
           </div>
           <div class="xp-label">Campaign XP ████████████ LVL 99</div>
           <div class="xp-bar-wrap"><div class="xp-bar-fill"></div></div>

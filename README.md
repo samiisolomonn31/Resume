@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -406,9 +405,13 @@
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
     gap: 2rem;
+    opacity: 1;
     transition: opacity 0.8s ease;
   }
-  #intro.fade-out { opacity: 0; pointer-events: none; }
+  #intro.fade-out {
+    opacity: 0 !important;
+    pointer-events: none;
+  }
 
   .intro-title {
     font-family: 'Press Start 2P', monospace;
@@ -755,9 +758,12 @@
       });
     } catch(e) {}
 
-    intro.classList.add('fade-out');
+    // Force fade using inline styles — guaranteed to work
+    intro.style.transition = 'opacity 0.8s ease';
+    intro.style.opacity = '0';
+    intro.style.pointerEvents = 'none';
     setTimeout(() => { intro.style.display = 'none'; }, 850);
-
+    setTimeout(() => showToast('👋 Welcome to Samantha\'s farm! Click anything!'), 1000);
   }
 
   // Also allow Enter / Space to start

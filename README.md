@@ -337,12 +337,18 @@
 document.getElementById('startBtn').onclick = function() {
   var intro  = document.getElementById('intro');
   var resume = document.getElementById('resumePage');
+
+  // 1. Show the resume page immediately (it starts hidden behind intro)
+  resume.style.display = 'block';
+  initResume();
+
+  // 2. Fade out the intro
   intro.style.transition = 'opacity 0.7s ease';
   intro.style.opacity = '0';
+
+  // 3. Remove intro from the DOM after the fade is done
   setTimeout(function() {
     intro.style.display = 'none';
-    resume.style.display = 'block';
-    initResume();
   }, 700);
 };
 

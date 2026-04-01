@@ -130,6 +130,7 @@
   .edu-icon{font-size:2.5rem;}
   .edu-name{font-family:'Press Start 2P',monospace;font-size:.6rem;color:var(--wood2);margin-bottom:.3rem;}
   .edu-degree{font-family:'Press Start 2P',monospace;font-size:.8rem;color:var(--green);}
+  .edu-minors{font-family:'Press Start 2P',monospace;font-size:.7rem;color:var(--blue);}
   .edu-years{font-family:'Press Start 2P',monospace;color:var(--wood);font-size:.6rem;}
 
   #toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--panel);border:3px solid var(--border);box-shadow:4px 4px 0 var(--shadow);padding:.6rem 1.2rem;font-family:'Press Start 2P',monospace;font-size:.55rem;color:var(--text);z-index:9998;pointer-events:none;opacity:0;transition:opacity .3s,transform .3s;white-space:nowrap;}
@@ -307,7 +308,7 @@
           <div>
             <div class="edu-name">UNIVERSITY OF DENVER</div>
             <div class="edu-degree">Bachelor's Degree — Strategic Communications</div>
-            <div>Minors: Marketing &amp; Business Analytics</div>
+            <div class="edu.minors">Minors: Marketing &amp; Business Analytics</div>
             <div class="edu-years">📅 2018 – 2023</div>
           </div>
         </div>

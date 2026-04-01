@@ -93,7 +93,7 @@
   .panel{background:var(--panel);border:4px solid var(--border);box-shadow:6px 6px 0 var(--shadow);margin-bottom:1.5rem;animation:popIn .5s cubic-bezier(.36,1.56,.64,1) both;}
   .panel-header{background:var(--wood);padding:.6rem 1rem;display:flex;align-items:center;gap:.6rem;cursor:pointer;user-select:none;transition:background .15s;}
   .panel-header:hover{background:var(--wood2);}
-  .panel-header h2{font-family:'Press Start 2P',monospace;font-size:.7rem;color:var(--gold);text-shadow:1px 1px 0 var(--shadow);flex:1;}
+  .panel-header h2{font-family:'Press Start 2P',monospace;font-size:1.1rem;color:var(--gold);text-shadow:1px 1px 0 var(--shadow);flex:1;}
   .panel-icon{font-size:1.4rem;}
   .toggle-btn{font-family:'Press Start 2P',monospace;font-size:.6rem;color:var(--gold);background:none;border:none;cursor:pointer;transition:transform .3s;}
   .toggle-btn.open{transform:rotate(180deg);}
@@ -216,7 +216,7 @@
       <div class="panel-body" style="max-height:2000px">
         <div class="job-card" onclick="toggleJob(this)">
           <div class="job-header">
-            <div><div class="job-title-text">CAMPAIGN MGR — TECHNOLOGY</div><div class="job-company">🏰 RAPP Dallas</div></div>
+            <div><div class="job-title-text">RAPP Dallas</div><div class="job-company">🏰 CAMPAIGN MGR — TECHNOLOGY</div></div>
             <div><div class="job-date">📅 Nov 2024 – Present</div><div style="font-size:.85rem;color:var(--green);text-align:right;">▶ Active Quest</div></div>
           </div>
           <div class="job-body" style="max-height:600px">

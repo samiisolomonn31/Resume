@@ -233,7 +233,7 @@
         <div class="job-card" onclick="toggleJob(this)">
           <div class="job-header">
             <div><div class="job-title-text">Mesmerize</div><div class="job-company">🌾 CAMPAIGN MGR — PRODUCTION &amp; EXECUTION</div></div>
-            <div><div class="job-date">📅 Jan 2024 – Oct 2024</div><div style="font-size:.85rem;color:var(--gold2);text-align:right;">✔ Completed</div></div>
+            <div><div class="job-date">📅 Jan 2024 – Oct 2024</div><div style="font-size:.85rem;color:var(--wood2);text-align:right;">✔ Completed</div></div>
           </div>
           <div class="job-body" style="max-height:600px">
             <div class="job-bullet">Oversaw campaign execution start-to-finish: accuracy in sales orders, Trello status tracking, and kick-off call scheduling</div>
@@ -247,7 +247,7 @@
         <div class="job-card" onclick="toggleJob(this)">
           <div class="job-header">
             <div><div class="job-title-text">Mesmerize</div><div class="job-company">🌾 CAMPAIGN MGR — CSR OPERATIONS</div></div>
-            <div><div class="job-date">📅 Apr 2023 – Jan 2024</div><div style="font-size:.85rem;color:var(--gold2);text-align:right;">✔ Completed</div></div>
+            <div><div class="job-date">📅 Apr 2023 – Jan 2024</div><div style="font-size:.85rem;color:var(--wood2);text-align:right;">✔ Completed</div></div>
           </div>
           <div class="job-body" style="max-height:600px">
             <div class="job-bullet">Developed campaign execution plans and problem-solved issues as they arose</div>

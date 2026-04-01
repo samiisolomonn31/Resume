@@ -14,7 +14,7 @@
   }
   *{box-sizing:border-box;margin:0;padding:0;}
   html{scroll-behavior:smooth;}
-  body{font-family:'VT323',monospace;background:#1a0e05;color:var(--text);min-height:100vh;overflow-x:hidden;}
+  body{font-family:'VT323',monospace;background:#191970;color:var(--text);min-height:100vh;overflow-x:hidden;}
 
   /* ══ INTRO SCREEN ══ */
   #intro{

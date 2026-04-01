@@ -84,7 +84,7 @@
   .contact-row a{color:var(--blue);text-decoration:none;}
   .contact-row a:hover{color:var(--red);}
   .stars-row{font-family:'Press Start 2P',monospace;font-size:.6rem; display:flex;gap:4px;margin-top:.5rem;}
-  .star{font-size:1.2rem;color:var(--star);animation:twinkle 2s infinite;}
+  .star{font-size:.6rem;color:var(--star);animation:twinkle 2s infinite;}
   .star:nth-child(2){animation-delay:.3s;}.star:nth-child(3){animation-delay:.6s;}.star:nth-child(4){animation-delay:.9s;}.star:nth-child(5){animation-delay:1.2s;}
   .xp-label{font-family:'Press Start 2P',monospace;font-size:.45rem;color:var(--wood2);margin-top:2px;}
   .xp-bar-wrap{margin-top:.4rem;background:var(--panel2);border:2px solid var(--border);height:16px;overflow:hidden;}

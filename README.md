@@ -83,7 +83,7 @@
   .page {
     position: relative; z-index: 2;
     max-width: 900px; margin: 0 auto;
-    padding: -1rem 1.5rem 6rem;
+    padding: -2rem 1.5rem 6rem;
   }
 
   /* ── NAMEPLATE / HEADER ── */

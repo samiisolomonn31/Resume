@@ -159,7 +159,7 @@
   <div class="intro-title">SAMANTHA<br/>SOLOMON</div>
   <div class="intro-sub">
     ⚔ Campaign Manager ⚔<br/>
-    <span style="color:#c8956b;">★ Dallas, TX · Class of 2023 ★</span>
+    <span style="color:#c8956b;">★ Dallas, TX · Looking to Level Up ★</span>
   </div>
   <button id="startBtn">▶ PRESS START</button>
   <div class="intro-copy">© 2026 SAMANTHA SOLOMON · ALL QUESTS RESERVED</div>

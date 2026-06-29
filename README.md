@@ -181,7 +181,7 @@
         <div class="sprite"><canvas id="playerCanvas" width="64" height="80"></canvas></div>
         <div class="name-block">
           <h1>SAMANTHA<br/>SOLOMON</h1>
-          <div class="job-title-h">⚔ Campaign Manager</div>
+          <div class="job-title-h">⚔ Program Manager</div>
           <div class="contact-row">
             <span>📍 Dallas, TX</span><span>·</span>
             <a href="tel:2146326082">📞 (214) 632-6082</a><span>·</span>
@@ -214,11 +214,28 @@
         <span class="panel-icon">⚔️</span><h2>QUEST LOG</h2>
         <button class="toggle-btn open">▼</button>
       </div>
+
+    <div class="panel-body" style="max-height:2000px">
+        <div class="job-card" onclick="toggleJob(this)">
+          <div class="job-header">
+            <div><div class="job-title-text">Targetbase Dallas</div><div class="job-company">🏰 Program MGR — TECHNOLOGY</div></div>
+            <div><div class="job-date">📅 May 2026 – Present</div><div style="font-size:.85rem;color:var(--green);text-align:right;">▶ Active Quest</div></div>
+          </div>
+          <div class="job-body" style="max-height:600px">
+            <div class="job-bullet">Own campaign implementation, management &amp; monitoring on Salesforce Marketing Cloud, Adobe Experience Platform, Pega, and Braze</div>
+            <div class="job-bullet">Create segments using SQL; design complex multi-channel journeys with dynamic content and trigger-based deployment</div>
+            <div class="job-bullet">Monitor deployments &amp; deliverability; troubleshoot and resolve issues in a timely manner</div>
+            <div class="job-bullet">Partner with Marketing Sciences team to set up and track campaigns</div>
+            <div class="job-bullet">Analyze campaign performance and drive data-backed client decisions</div>
+            <div class="job-bullet">Pivot as needed for ad-hoc data, campaign planning, and execution requests</div>
+          </div>
+        </div>
+    
       <div class="panel-body" style="max-height:2000px">
         <div class="job-card" onclick="toggleJob(this)">
           <div class="job-header">
             <div><div class="job-title-text">RAPP Dallas</div><div class="job-company">🏰 CAMPAIGN MGR — TECHNOLOGY</div></div>
-            <div><div class="job-date">📅 Nov 2024 – Present</div><div style="font-size:.85rem;color:var(--green);text-align:right;">▶ Active Quest</div></div>
+            <div><div class="job-date">📅 Nov 2024 – April 2026</div><div style="font-size:.85rem;color:var(--green);text-align:right;">▶ Active Quest</div></div>
           </div>
           <div class="job-body" style="max-height:600px">
             <div class="job-bullet">Own campaign implementation, management &amp; monitoring on Salesforce Marketing Cloud, Adobe Experience Platform, Pega, and Braze</div>

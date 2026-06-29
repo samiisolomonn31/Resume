@@ -204,7 +204,7 @@
       </div>
       <div class="panel-body" style="max-height:300px">
         <div class="summary-text">
-          I’m a results-driven Program Manager looking for my next step in my career. With a degree in Strategic Communications and minors in Marketing and Business Analytics,  I can ensure above-target results in a timely manner. My approach to work is marked by an unwavering attention to detail, a deep-seated passion for data, and an outgoing personality that fosters collaboration and positive relationships. 
+          I’m a results-driven Program Manager looking for my next step in my career. With a degree in Strategic Communications and minors in Marketing and Business Analytics,  I can ensure above target results in a timely manner. My approach to work is marked by an unwavering attention to detail, a deep-seated passion for data, and an outgoing personality that fosters collaboration and positive relationships. 
         </div>
       </div>
     </div>
@@ -286,7 +286,7 @@
           <div class="skill-item" onclick="spawnItem(this,'⚡')">Salesforce Lightning &amp; Marketing Cloud</div>
           <div class="skill-item" onclick="spawnItem(this,'📊')">SQL — Segmentation &amp; Querying</div>
           <div class="skill-item" onclick="spawnItem(this,'🔗')">Adobe Experience Platform</div>
-          <div class="skill-item" onclick="spawnItem(this,'📱')">Pega &amp; Braze</div>
+          <div class="skill-item" onclick="spawnItem(this,'📱')">Marketing Automation</div>
           <div class="skill-item" onclick="spawnItem(this,'📋')">Workfront &amp; Trello</div>
           <div class="skill-item" onclick="spawnItem(this,'💬')">Cross-Functional Communication</div>
           <div class="skill-item" onclick="spawnItem(this,'🔍')">KPI Development &amp; Tracking</div>

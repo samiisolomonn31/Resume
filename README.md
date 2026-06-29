@@ -286,16 +286,16 @@
         <div class="skills-grid">
           <div class="skill-item" onclick="spawnItem(this,'⚡')">Salesforce Lightning &amp; Marketing Cloud</div>
           <div class="skill-item" onclick="spawnItem(this,'📊')">SQL — Segmentation &amp; Querying</div>
-          <div class="skill-item" onclick="spawnItem(this,'🔗')">Adobe Experience Platform</div>
+          <div class="skill-item" onclick="spawnItem(this,'🔗')">Data-Driven Storytelling</div>
           <div class="skill-item" onclick="spawnItem(this,'📱')">Marketing Automation</div>
-          <div class="skill-item" onclick="spawnItem(this,'📋')">Workfront &amp; Trello</div>
+          <div class="skill-item" onclick="spawnItem(this,'📋')">Adobe Workfront</div>
           <div class="skill-item" onclick="spawnItem(this,'💬')">Cross-Functional Communication</div>
           <div class="skill-item" onclick="spawnItem(this,'🔍')">KPI Development &amp; Tracking</div>
           <div class="skill-item" onclick="spawnItem(this,'💡')">Proactive Problem Solving</div>
           <div class="skill-item" onclick="spawnItem(this,'📈')">Campaign Performance Analysis</div>
           <div class="skill-item" onclick="spawnItem(this,'📎')">Microsoft Excel, PowerPoint &amp; Word</div>
           <div class="skill-item" onclick="spawnItem(this,'🎯')">CRM & Lifecycle Marketing</div>
-          <div class="skill-item" onclick="spawnItem(this,'🤝')">Stakeholder Communication</div>
+          <div class="skill-item" onclick="spawnItem(this,'🤝')">Email, Print &amp; SMS campaigns</div>
         </div>
       </div>
     </div>

@@ -350,7 +350,7 @@
           <div class="skill-item" onclick="spawnItem(this,'📊')">SQL — Segmentation &amp; Querying</div>
           <div class="skill-item" onclick="spawnItem(this,'🔗')">Data-Driven Storytelling</div>
           <div class="skill-item" onclick="spawnItem(this,'📱')">Marketing Automation</div>
-          <div class="skill-item" onclick="spawnItem(this,'📋')">Adobe Workfront</div>
+          <div class="skill-item" onclick="spawnItem(this,'📋')">Adobe Workfront & Experience Platform</div>
           <div class="skill-item" onclick="spawnItem(this,'💬')">Cross-Functional Communication</div>
           <div class="skill-item" onclick="spawnItem(this,'🔍')">KPI Development &amp; Tracking</div>
           <div class="skill-item" onclick="spawnItem(this,'💡')">Proactive Problem Solving</div>

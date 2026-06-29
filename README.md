@@ -219,7 +219,7 @@
       <div class="panel-body" style="max-height:2000px">
         <div class="job-card" onclick="toggleJob(this)">
           <div class="job-header">
-            <div><div class="job-title-text">Targetbase Dallas</div><div class="job-company">🏰 Program MGR — FUll Cycle</div></div>
+            <div><div class="job-title-text">Targetbase Dallas</div><div class="job-company">🏰 Program MGR — Full Cycle</div></div>
             <div><div class="job-date">📅 May 2026 – Present</div><div style="font-size:.85rem;color:var(--green);text-align:right;">▶ Active Quest</div></div>
           </div>
           <div class="job-body" style="max-height:600px">
@@ -378,7 +378,7 @@ document.addEventListener('keydown', function(e) {
  
 // ══ RESUME LOGIC ══
 function initResume() {
-  showToast('👋 Welcome to Samantha\'s farm! Click anything!');
+  showToast('👋 Welcome to Samantha\'s Player Stats! Click anything!');
  
   var c = document.getElementById('playerCanvas');
   if (!c) return;

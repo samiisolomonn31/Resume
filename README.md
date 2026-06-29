@@ -222,12 +222,12 @@
             <div><div class="job-date">📅 May 2026 – Present</div><div style="font-size:.85rem;color:var(--green);text-align:right;">▶ Active Quest</div></div>
           </div>
           <div class="job-body" style="max-height:600px">
-            <div class="job-bullet">Own campaign implementation, management &amp; monitoring on Salesforce Marketing Cloud, Adobe Experience Platform, Pega, and Braze</div>
-            <div class="job-bullet">Create segments using SQL; design complex multi-channel journeys with dynamic content and trigger-based deployment</div>
-            <div class="job-bullet">Monitor deployments &amp; deliverability; troubleshoot and resolve issues in a timely manner</div>
-            <div class="job-bullet">Partner with Marketing Sciences team to set up and track campaigns</div>
-            <div class="job-bullet">Analyze campaign performance and drive data-backed client decisions</div>
-            <div class="job-bullet">Pivot as needed for ad-hoc data, campaign planning, and execution requests</div>
+            <div class="job-bullet">Responsible for full life-cycle program management of projects for pharma & veterinary clients from estimate/SOW creation, budget tracking, creative process, MLR reviews, launch plan</div>
+            <div class="job-bullet">Founded a Program Manager position for creative/tech projects to ensure that all campaigns had necessary materials and timelines were accurate to deliver the best results for clients (Pharma & Veterinary)</div>
+            <div class="job-bullet">Managed staffing & estimates across multiple programs with shared agency resources across departments</div>
+            <div class="job-bullet">Developed and championed a company-wide process framework addressing four critical operational gaps — business rules documentation, project context, timeline commitments, and bandwidth visibility — resulting in greater consistency, reduced rework, and improved cross-functional coordination</div>
+            <div class="job-bullet">Monitors program progress against the plan and Statement of Work (SOW) and proactively communicates variances and works with the team to resolve issues</div>
+            <div class="job-bullet">Addresses issues related to scope, schedule, budget, or quality, ensuring scope changes are documented</div>
           </div>
         </div>
     

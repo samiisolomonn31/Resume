@@ -204,7 +204,7 @@
       </div>
       <div class="panel-body" style="max-height:300px">
         <div class="summary-text">
-          Results-driven Campaign Manager seeking her next quest. Equipped with a degree in Strategic Communications and minors in Marketing &amp; Business Analytics. Blessed with unwavering attention to detail, a deep passion for data, and an outgoing personality that levels up any party she joins.
+          I’m a results-driven Program Manager looking for my next step in my career. With a degree in Strategic Communications and minors in Marketing and Business Analytics,  I can ensure above-target results in a timely manner. My approach to work is marked by an unwavering attention to detail, a deep-seated passion for data, and an outgoing personality that fosters collaboration and positive relationships. 
         </div>
       </div>
     </div>
@@ -235,7 +235,7 @@
         <div class="job-card" onclick="toggleJob(this)">
           <div class="job-header">
             <div><div class="job-title-text">RAPP Dallas</div><div class="job-company">🏰 CAMPAIGN MGR — TECHNOLOGY</div></div>
-            <div><div class="job-date">📅 Nov 2024 – April 2026</div><div style="font-size:.85rem;color:var(--green);text-align:right;">▶ Active Quest</div></div>
+            <div><div class="job-date">📅 Nov 2024 – April 2026</div><div style="font-size:.85rem;color:var(--green);text-align:right;">✔ Completed</div></div>
           </div>
           <div class="job-body" style="max-height:600px">
             <div class="job-bullet">Own campaign implementation, management &amp; monitoring on Salesforce Marketing Cloud, Adobe Experience Platform, Pega, and Braze</div>

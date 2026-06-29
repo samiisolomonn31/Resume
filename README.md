@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8"/>
+<!DOCTYPE html>="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Samantha Solomon — Resume</title>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet"/>
@@ -228,6 +225,15 @@
   </div>
 </div>
 
+<div id="skillModal2">
+  <div class="modal-box">
+    <span class="modal-icon">⚡</span>
+    <div class="modal-title">SQL — Segmentation & Querying</div>
+    <div class="modal-body">This is my experience.</div>
+    <button id="modalOkBtn" onclick="closeSkillModal2()">✔ OKAY</button>
+  </div>
+</div>
+
 <!-- ══ RESUME PAGE ══ -->
 <div id="resumePage">
   <div class="sky-bg"></div>
@@ -347,7 +353,7 @@
       <div class="panel-body" style="max-height:800px">
         <div class="skills-grid">
           <div class="skill-item" onclick="openSkillModal(event)">Salesforce Lightning &amp; Marketing Cloud</div>
-          <div class="skill-item" onclick="spawnItem(this,'📊')">SQL — Segmentation &amp; Querying</div>
+          <div class="skill-item" onclick="openSkillModal2(event)">SQL — Segmentation &amp; Querying</div>
           <div class="skill-item" onclick="spawnItem(this,'🔗')">Data-Driven Storytelling</div>
           <div class="skill-item" onclick="spawnItem(this,'📱')">Marketing Automation</div>
           <div class="skill-item" onclick="spawnItem(this,'📋')">Adobe Workfront & Experience Platform</div>

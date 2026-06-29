@@ -294,7 +294,7 @@
           <div class="skill-item" onclick="spawnItem(this,'💡')">Proactive Problem Solving</div>
           <div class="skill-item" onclick="spawnItem(this,'📈')">Campaign Performance Analysis</div>
           <div class="skill-item" onclick="spawnItem(this,'📎')">Microsoft Excel, PowerPoint &amp; Word</div>
-          <div class="skill-item" onclick="spawnItem(this,'🎯')">Budget Management</div>
+          <div class="skill-item" onclick="spawnItem(this,'🎯')">CRM & Lifecycle Marketing</div>
           <div class="skill-item" onclick="spawnItem(this,'🤝')">Stakeholder Communication</div>
         </div>
       </div>

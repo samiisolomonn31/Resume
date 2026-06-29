@@ -159,7 +159,7 @@
   </div>
   <div class="intro-title">SAMANTHA<br/>SOLOMON</div>
   <div class="intro-sub">
-    ⚔ Campaign Manager ⚔<br/>
+    ⚔ Program Manager ⚔<br/>
     <span style="color:FFFFFF;">★ Dallas, TX · Looking to Level Up ★</span>
   </div>
   <button id="startBtn">▶ PRESS START</button>

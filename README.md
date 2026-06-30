@@ -145,6 +145,41 @@
  
   .delay-1{animation-delay:.1s;}.delay-2{animation-delay:.2s;}.delay-3{animation-delay:.3s;}.delay-4{animation-delay:.4s;}.delay-5{animation-delay:.5s;}
   @media(max-width:500px){.nameplate-inner{flex-direction:column;}.page{padding:.5rem .75rem 6rem;}}
+
+  /* ══ SKILL MODAL ══ */
+  #skillModalOverlay{
+    position:fixed;inset:0;z-index:10000;
+    background:rgba(15,9,3,.65);
+    display:none;align-items:center;justify-content:center;
+    padding:1rem;
+  }
+  #skillModalOverlay.show{display:flex;}
+  .skill-modal{
+    background:var(--panel);border:4px solid var(--border);
+    box-shadow:8px 8px 0 var(--shadow);
+    max-width:420px;width:100%;
+    padding:1.4rem 1.6rem;
+    animation:popIn .3s cubic-bezier(.36,1.56,.64,1) both;
+    position:relative;
+  }
+  .skill-modal-icon{font-size:2.2rem;text-align:center;margin-bottom:.6rem;}
+  .skill-modal-title{
+    font-family:'Press Start 2P',monospace;font-size:.85rem;color:#191970;
+    text-shadow:1px 1px 0 var(--gold2);text-align:center;line-height:1.5;margin-bottom:.9rem;
+  }
+  .skill-modal-desc{
+    font-family:'Press Start 2P',monospace;font-size:.75rem;line-height:1.7;
+    background:var(--panel2);border:2px solid var(--border);padding:.9rem;color:var(--text);margin-bottom:1.1rem;
+  }
+  .skill-modal-ok{
+    display:block;margin:0 auto;
+    font-family:'Press Start 2P',monospace;font-size:.7rem;
+    color:#1a0e05;background:var(--gold);
+    border:3px solid var(--gold2);padding:.6rem 1.6rem;
+    cursor:pointer;box-shadow:3px 3px 0 var(--shadow);
+  }
+  .skill-modal-ok:hover{background:#ffe066;transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--shadow);}
+  .skill-modal-ok:active{transform:translate(1px,1px);box-shadow:2px 2px 0 var(--shadow);}
 </style>
 </head>
 <body>
@@ -173,6 +208,16 @@
   <div class="ground"></div>
   <div id="toast"></div>
   <button id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">▲ TOP</button>
+
+  <!-- SKILL MODAL -->
+  <div id="skillModalOverlay" onclick="if(event.target===this) closeSkillModal()">
+    <div class="skill-modal">
+      <div class="skill-modal-icon" id="skillModalIcon">⚒️</div>
+      <div class="skill-modal-title" id="skillModalTitle">SKILL</div>
+      <div class="skill-modal-desc" id="skillModalDesc">Description goes here.</div>
+      <button class="skill-modal-ok" onclick="closeSkillModal()">OK</button>
+    </div>
+  </div>
  
   <div class="page">
  
@@ -284,18 +329,18 @@
       </div>
       <div class="panel-body" style="max-height:800px">
         <div class="skills-grid">
-          <div class="skill-item" onclick="spawnItem(this,'⚡')">Salesforce Lightning &amp; Marketing Cloud</div>
-          <div class="skill-item" onclick="spawnItem(this,'📊')">SQL — Segmentation &amp; Querying</div>
-          <div class="skill-item" onclick="spawnItem(this,'🔗')">Data-Driven Storytelling</div>
-          <div class="skill-item" onclick="spawnItem(this,'📱')">Marketing Automation</div>
-          <div class="skill-item" onclick="spawnItem(this,'📋')">Adobe Workfront</div>
-          <div class="skill-item" onclick="spawnItem(this,'💬')">Cross-Functional Communication</div>
-          <div class="skill-item" onclick="spawnItem(this,'🔍')">KPI Development &amp; Tracking</div>
-          <div class="skill-item" onclick="spawnItem(this,'💡')">Proactive Problem Solving</div>
-          <div class="skill-item" onclick="spawnItem(this,'📈')">Campaign Performance Analysis</div>
-          <div class="skill-item" onclick="spawnItem(this,'📎')">Microsoft Excel, PowerPoint &amp; Word</div>
-          <div class="skill-item" onclick="spawnItem(this,'🎯')">CRM & Lifecycle Marketing</div>
-          <div class="skill-item" onclick="spawnItem(this,'🤝')">Email, Print &amp; SMS campaigns</div>
+          <div class="skill-item" data-icon="⚡" data-desc="Hands-on expertise building and deploying email journeys inside Salesforce Marketing Cloud and Lightning, from automation studio to journey builder.">Salesforce Lightning &amp; Marketing Cloud</div>
+          <div class="skill-item" data-icon="📊" data-desc="Writes SQL queries to build precise audience segments and pull the data needed to target campaigns effectively.">SQL — Segmentation &amp; Querying</div>
+          <div class="skill-item" data-icon="🔗" data-desc="Turns raw numbers into a clear narrative, using data to explain performance and guide decisions in a way stakeholders understand.">Data-Driven Storytelling</div>
+          <div class="skill-item" data-icon="📱" data-desc="Builds and manages automated, trigger-based marketing flows across email, SMS, and other channels.">Marketing Automation</div>
+          <div class="skill-item" data-icon="📋" data-desc="Manages project timelines, intake, and resourcing using Adobe Workfront to keep campaigns on schedule.">Adobe Workfront</div>
+          <div class="skill-item" data-icon="💬" data-desc="Bridges creative, technical, and client teams, keeping everyone aligned and communication flowing smoothly.">Cross-Functional Communication</div>
+          <div class="skill-item" data-icon="🔍" data-desc="Defines and monitors key performance indicators to keep projects and teams accountable to their goals.">KPI Development &amp; Tracking</div>
+          <div class="skill-item" data-icon="💡" data-desc="Spots issues before they become roadblocks and works quickly with the team to solve them.">Proactive Problem Solving</div>
+          <div class="skill-item" data-icon="📈" data-desc="Analyzes CTR, deliverability, unsubscribe rates, and other metrics to measure and improve campaign results.">Campaign Performance Analysis</div>
+          <div class="skill-item" data-icon="📎" data-desc="Certified power user of Excel, PowerPoint, and Word for reporting, presentations, and documentation.">Microsoft Excel, PowerPoint &amp; Word</div>
+          <div class="skill-item" data-icon="🎯" data-desc="Manages customer relationship platforms and lifecycle marketing strategies to nurture audiences over time.">CRM & Lifecycle Marketing</div>
+          <div class="skill-item" data-icon="🤝" data-desc="Plans and executes multi-channel campaigns spanning email, print, and SMS from concept to launch.">Email, Print &amp; SMS campaigns</div>
         </div>
       </div>
     </div>
@@ -408,6 +453,13 @@ function initResume() {
     var btn = document.getElementById('scrollTop');
     if(btn) btn.classList.toggle('visible', window.scrollY>300);
   });
+
+  // ══ SKILL ITEM CLICK -> OPEN MODAL ══
+  document.querySelectorAll('.skill-item').forEach(function(item){
+    item.addEventListener('click', function(){
+      openSkillModal(item);
+    });
+  });
  
   var keys=[];
   var konami='s,a,m,i'.split(',');
@@ -468,6 +520,28 @@ function spawnItem(el, emoji) {
   setTimeout(function(){d.remove();},3100);
   showToast('✨ Skill activated!');
 }
+
+// ══ SKILL MODAL ══
+function openSkillModal(item) {
+  var icon = item.getAttribute('data-icon') || '⚒️';
+  var desc = item.getAttribute('data-desc') || 'No description available.';
+  var title = item.textContent.trim();
+
+  document.getElementById('skillModalIcon').textContent = icon;
+  document.getElementById('skillModalTitle').textContent = title;
+  document.getElementById('skillModalDesc').textContent = desc;
+  document.getElementById('skillModalOverlay').classList.add('show');
+
+  spawnItem(item, icon);
+}
+
+function closeSkillModal() {
+  document.getElementById('skillModalOverlay').classList.remove('show');
+}
+
+document.addEventListener('keydown', function(e){
+  if (e.key === 'Escape') closeSkillModal();
+});
 </script>
 </body>
 </html>
